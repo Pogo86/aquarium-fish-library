@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aquarium Manager Fish Library",
+  "type": "object",
+  "required": ["schema_version", "species"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "library_name": {"type": "string"},
+    "updated": {"type": "string"},
+    "species": {
+      "type": "array",
+      "maxItems": 5000,
+      "items": {
+        "type": "object",
+        "required": ["id", "common_name"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "common_name": {"type": "string", "minLength": 1},
+          "scientific_name": {"type": "string"},
+          "aliases": {"type": "array", "items": {"type": "string"}, "maxItems": 50},
+          "adult_size_cm": {"type": ["number", "null"], "minimum": 0},
+          "temperature": {"$ref": "#/$defs/rangeOrNull"},
+          "ph": {"$ref": "#/$defs/rangeOrNull"},
+          "gh": {"$ref": "#/$defs/rangeOrNull"},
+          "kh": {"$ref": "#/$defs/rangeOrNull"},
+          "minimum_group": {"type": ["integer", "null"], "minimum": 1},
+          "minimum_tank": {
+            "type": ["object", "null"],
+            "properties": {
+              "length_cm": {"type": ["number", "null"], "minimum": 0},
+              "width_cm": {"type": ["number", "null"], "minimum": 0},
+              "height_cm": {"type": ["number", "null"], "minimum": 0}
+            },
+            "additionalProperties": false
+          },
+          "social_type": {"type": "string"},
+          "temperament": {"type": "string"},
+          "swimming_zone": {"type": "string"},
+          "cautions": {"type": "array", "items": {"type": "string"}, "maxItems": 20},
+          "source": {
+            "type": ["object", "null"],
+            "properties": {
+              "label": {"type": "string"},
+              "url": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "$defs": {
+    "rangeOrNull": {
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "required": ["min", "max"],
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "additionalProperties": true
+}
