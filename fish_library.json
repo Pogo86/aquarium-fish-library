@@ -537,6 +537,74 @@
       "ecology": "benthopelagic",
       "climate": "subtropical",
       "distribution": "North America: Cape Fear drainage in North Carolina, USA to Veracruz, Mexico. Introduced to many countries. Several countries report adverse ecological impact after introduction. Gulf of Mexico (Ref. 26938 )."
+    },
+    {
+      "id": "poecilia_velifera",
+      "common_name": "Giant Sailfin Molly",
+      "scientific_name": "Poecilia velifera",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/poecilia-velifera",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Poecilia-velifera.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "ph differs between sources; SeriouslyFish value used.",
+        "gh differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 15.0,
+      "temperature": {
+        "min": 25.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 7.0,
+        "max": 8.5
+      },
+      "gh": {
+        "min": 15.0,
+        "max": 35.0
+      },
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 104.0,
+      "social_type": "unknown",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater, brackish",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "Central America: Yucatán-Quintana Roo and lower Usumacinta-Laguna de Términos systems in Mexico."
     }
   ]
 }
