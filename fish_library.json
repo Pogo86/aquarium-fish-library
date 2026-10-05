@@ -169,8 +169,7 @@
       "id": "bronze_corydoras",
       "common_name": "Bronze Cory",
       "scientific_name": "Osteogaster aenea",
-      "aliases": [
-      ],
+      "aliases": [],
       "adult_size_cm": 7.5,
       "temperature": {
         "min": 25.0,
@@ -266,68 +265,48 @@
       "cautions": [
         "Keep at least 8 individuals."
       ],
-      "source": {
-        "label": "Seriously Fish",
-        "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi"
-      },
-      "sources": [
-        {
-          "label": "Seriously Fish",
-          "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi"
-        },
-        {
-          "label": "FishBase",
-          "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html"
-        }
-      ],
-      "reference_data": {
+      "sources": {
         "seriouslyfish": {
-          "adult_size_cm": 3.0,
-          "temperature": null,
-          "ph": {
-            "min": 5.5,
-            "max": 6.5
-          },
-          "gh": {
-            "min": 1.0,
-            "max": 5.0
-          },
-          "minimum_group": 8,
-          "minimum_tank": null,
-          "minimum_tank_volume_l": 54.0,
-          "compatibility": "",
-          "difficulty": "easy",
-          "diet_type": "omnivorous"
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi",
+          "checked": "2026-10-05"
         },
         "fishbase": {
-          "adult_size_cm": 2.5,
-          "temperature": {
-            "min": 20.0,
-            "max": 26.0
-          },
-          "ph": {
-            "min": 5.0,
-            "max": 7.0
-          },
-          "gh": {
-            "min": 1.0,
-            "max": 2.0
-          },
-          "minimum_group": 5,
-          "minimum_tank": {
-            "length_cm": 60.0,
-            "width_cm": null,
-            "height_cm": null
-          },
-          "family": "",
-          "environment_type": "freshwater",
-          "ecology": "pelagic",
-          "climate": "tropical",
-          "distribution": "South America: Blackwater or clearwater stream tributaries of the Solimões River.",
-          "iucn_status": "",
-          "threat_to_humans": ""
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html",
+          "checked": "2026-10-05"
         }
-      }
+      },
+      "minimum_tank_volume_l": 54.0,
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: Blackwater or clearwater stream tributaries of the Solimões River.",
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "ph differs between sources; SeriouslyFish value used.",
+        "gh differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ]
     },
     {
       "id": "paracheirodon_simulans",
