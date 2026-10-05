@@ -167,38 +167,74 @@
     },
     {
       "id": "bronze_corydoras",
-      "common_name": "Bronze Corydoras",
+      "common_name": "Bronze Cory",
       "scientific_name": "Osteogaster aenea",
       "aliases": [
         "bronze cory"
       ],
-      "adult_size_cm": 7,
+      "adult_size_cm": 7.5,
       "temperature": {
-        "min": 21.0,
-        "max": 27.0
+        "min": 25.0,
+        "max": 28.0
       },
       "ph": {
-        "min": 6,
-        "max": 8
+        "min": 6.0,
+        "max": 8.0
       },
       "gh": {
-        "min": 2,
-        "max": 15.0
+        "min": 5.0,
+        "max": 19.0
       },
       "kh": null,
-      "minimum_group": 6,
+      "minimum_group": 4,
       "minimum_tank": {
-        "length_cm": 80,
-        "width_cm": 30,
+        "length_cm": 60.0,
+        "width_cm": null,
         "height_cm": null
       },
       "social_type": "shoal",
       "temperament": "peaceful",
       "swimming_zone": "bottom",
-      "source": {
-        "label": "Seriously Fish",
-        "url": "https://www.seriouslyfish.com/species/osteogaster-aenea"
-      }
+      "minimum_tank_volume_l": 72.0,
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "demersal",
+      "climate": "subtropical",
+      "distribution": "South America: Colombia and Trinidad to La Plata River basin east of the Andes.",
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "gh": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/osteogaster-aenea",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Osteogaster-aenea.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "cautions": [
+        "Keep at least 4 individuals."
+      ]
     },
     {
       "id": "paracheirodon_innesi",
