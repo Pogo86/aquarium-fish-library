@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "library_name": "Aquarium Manager Starter Fish Library",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "species": [
     {
       "id": "cardinal_tetra",
@@ -91,6 +91,26 @@
       "source": {
         "label": "Seriously Fish",
         "url": "https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus"
+      }
+    },
+    {
+      "id": "bronze_corydoras",
+      "common_name": "Bronze Corydoras",
+      "scientific_name": "Osteogaster aenea",
+      "aliases": ["bronze cory"],
+      "adult_size_cm": 7,
+      "temperature": {"min": 21.0, "max": 27.0},
+      "ph": {"min": 6, "max": 8},
+      "gh": {"min": 2, "max": 15.0},
+      "kh": null,
+      "minimum_group": 6,
+      "minimum_tank": {"length_cm": 80, "width_cm": 30, "height_cm": null},
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "swimming_zone": "bottom",
+      "source": {
+        "label": "Seriously Fish",
+        "url": "https://www.seriouslyfish.com/species/osteogaster-aenea"
       }
     }
   ]
