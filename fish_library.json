@@ -7,18 +7,36 @@
       "id": "cardinal_tetra",
       "common_name": "Cardinal tetra",
       "scientific_name": "Paracheirodon axelrodi",
-      "aliases": ["cardinal", "cardinal tetras"],
+      "aliases": [
+        "cardinal",
+        "cardinal tetras"
+      ],
       "adult_size_cm": 3.5,
-      "temperature": {"min": 23.0, "max": 29.0},
-      "ph": {"min": 3.5, "max": 7.5},
-      "gh": {"min": 1.0, "max": 12.0},
+      "temperature": {
+        "min": 23.0,
+        "max": 29.0
+      },
+      "ph": {
+        "min": 3.5,
+        "max": 7.5
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 12.0
+      },
       "kh": null,
       "minimum_group": 8,
-      "minimum_tank": {"length_cm": 60, "width_cm": 30, "height_cm": null},
+      "minimum_tank": {
+        "length_cm": 60,
+        "width_cm": 30,
+        "height_cm": null
+      },
       "social_type": "shoal",
       "temperament": "peaceful",
       "swimming_zone": "middle",
-      "cautions": ["Best kept in a shoal of at least 8–10."],
+      "cautions": [
+        "Best kept in a shoal of at least 8–10."
+      ],
       "source": {
         "label": "Seriously Fish",
         "url": "https://www.seriouslyfish.com/species/paracheirodon-axelrodi"
@@ -28,14 +46,31 @@
       "id": "buenos_aires_tetra",
       "common_name": "Buenos Aires tetra",
       "scientific_name": "Hyphessobrycon anisitsi",
-      "aliases": ["buenos aires tetras", "buenos aries tetra", "buenos aries tetras"],
+      "aliases": [
+        "buenos aires tetras",
+        "buenos aries tetra",
+        "buenos aries tetras"
+      ],
       "adult_size_cm": 6.0,
-      "temperature": {"min": 16.0, "max": 28.0},
-      "ph": {"min": 5.5, "max": 8.5},
-      "gh": {"min": 1.0, "max": 20.0},
+      "temperature": {
+        "min": 16.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 8.5
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 20.0
+      },
       "kh": null,
       "minimum_group": 8,
-      "minimum_tank": {"length_cm": 90, "width_cm": 30, "height_cm": null},
+      "minimum_tank": {
+        "length_cm": 90,
+        "width_cm": 30,
+        "height_cm": null
+      },
       "social_type": "shoal",
       "temperament": "active; can fin-nip",
       "swimming_zone": "middle",
@@ -52,14 +87,31 @@
       "id": "angelfish",
       "common_name": "Angelfish",
       "scientific_name": "Pterophyllum scalare",
-      "aliases": ["angel fish", "freshwater angelfish", "scalare"],
+      "aliases": [
+        "angel fish",
+        "freshwater angelfish",
+        "scalare"
+      ],
       "adult_size_cm": 15.0,
-      "temperature": {"min": 24.0, "max": 30.0},
-      "ph": {"min": 6.0, "max": 7.4},
-      "gh": {"min": 0.0, "max": 15.0},
+      "temperature": {
+        "min": 24.0,
+        "max": 30.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.4
+      },
+      "gh": {
+        "min": 0.0,
+        "max": 15.0
+      },
       "kh": null,
       "minimum_group": null,
-      "minimum_tank": {"length_cm": 100, "width_cm": 40, "height_cm": 50},
+      "minimum_tank": {
+        "length_cm": 100,
+        "width_cm": 40,
+        "height_cm": 50
+      },
       "social_type": "pair or small group",
       "temperament": "generally peaceful cichlid; territorial when breeding",
       "swimming_zone": "middle",
@@ -76,18 +128,38 @@
       "id": "bristlenose_pleco",
       "common_name": "Bristlenose pleco",
       "scientific_name": "Ancistrus sp. '3'",
-      "aliases": ["bristlenose", "bristlenose catfish", "common bristlenose", "ancistrus"],
+      "aliases": [
+        "bristlenose",
+        "bristlenose catfish",
+        "common bristlenose",
+        "ancistrus"
+      ],
       "adult_size_cm": 12.5,
-      "temperature": {"min": 21.0, "max": 26.0},
-      "ph": {"min": 5.5, "max": 7.5},
-      "gh": {"min": 1.0, "max": 15.0},
+      "temperature": {
+        "min": 21.0,
+        "max": 26.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 15.0
+      },
       "kh": null,
       "minimum_group": 1,
-      "minimum_tank": {"length_cm": 60, "width_cm": 30, "height_cm": null},
+      "minimum_tank": {
+        "length_cm": 60,
+        "width_cm": 30,
+        "height_cm": null
+      },
       "social_type": "single or pair",
       "temperament": "peaceful; territorial with similar catfish",
       "swimming_zone": "bottom",
-      "cautions": ["Provide cover and be cautious with multiple similar plecos."],
+      "cautions": [
+        "Provide cover and be cautious with multiple similar plecos."
+      ],
       "source": {
         "label": "Seriously Fish",
         "url": "https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus"
@@ -97,20 +169,129 @@
       "id": "bronze_corydoras",
       "common_name": "Bronze Corydoras",
       "scientific_name": "Osteogaster aenea",
-      "aliases": ["bronze cory"],
+      "aliases": [
+        "bronze cory"
+      ],
       "adult_size_cm": 7,
-      "temperature": {"min": 21.0, "max": 27.0},
-      "ph": {"min": 6, "max": 8},
-      "gh": {"min": 2, "max": 15.0},
+      "temperature": {
+        "min": 21.0,
+        "max": 27.0
+      },
+      "ph": {
+        "min": 6,
+        "max": 8
+      },
+      "gh": {
+        "min": 2,
+        "max": 15.0
+      },
       "kh": null,
       "minimum_group": 6,
-      "minimum_tank": {"length_cm": 80, "width_cm": 30, "height_cm": null},
+      "minimum_tank": {
+        "length_cm": 80,
+        "width_cm": 30,
+        "height_cm": null
+      },
       "social_type": "shoal",
       "temperament": "peaceful",
       "swimming_zone": "bottom",
       "source": {
         "label": "Seriously Fish",
         "url": "https://www.seriouslyfish.com/species/osteogaster-aenea"
+      }
+    },
+    {
+      "id": "paracheirodon_innesi",
+      "common_name": "Neon Tetra",
+      "scientific_name": "Paracheirodon innesi",
+      "aliases": [],
+      "adult_size_cm": 3.0,
+      "temperature": {
+        "min": 20.0,
+        "max": 26.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 6.5
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "kh": null,
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "source": {
+        "label": "Seriously Fish",
+        "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi"
+      },
+      "sources": [
+        {
+          "label": "Seriously Fish",
+          "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi"
+        },
+        {
+          "label": "FishBase",
+          "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html"
+        }
+      ],
+      "reference_data": {
+        "seriouslyfish": {
+          "adult_size_cm": 3.0,
+          "temperature": null,
+          "ph": {
+            "min": 5.5,
+            "max": 6.5
+          },
+          "gh": {
+            "min": 1.0,
+            "max": 5.0
+          },
+          "minimum_group": 8,
+          "minimum_tank": null,
+          "minimum_tank_volume_l": 54.0,
+          "compatibility": "",
+          "difficulty": "easy",
+          "diet_type": "omnivorous"
+        },
+        "fishbase": {
+          "adult_size_cm": 2.5,
+          "temperature": {
+            "min": 20.0,
+            "max": 26.0
+          },
+          "ph": {
+            "min": 5.0,
+            "max": 7.0
+          },
+          "gh": {
+            "min": 1.0,
+            "max": 2.0
+          },
+          "minimum_group": 5,
+          "minimum_tank": {
+            "length_cm": 60.0,
+            "width_cm": null,
+            "height_cm": null
+          },
+          "family": "",
+          "environment_type": "freshwater",
+          "ecology": "pelagic",
+          "climate": "tropical",
+          "distribution": "South America: Blackwater or clearwater stream tributaries of the Solimões River.",
+          "iucn_status": "",
+          "threat_to_humans": ""
+        }
       }
     }
   ]
