@@ -688,6 +688,58 @@
       "ecology": "benthopelagic",
       "climate": "tropical",
       "distribution": "Central and South America: Mexico to Colombia. Often confused with Poecilia mexicana (Ref. 1739 )."
+    },
+    {
+      "id": "hyphessobrycon_bifasciatus",
+      "common_name": "Yellow Tetra",
+      "scientific_name": "Hyphessobrycon bifasciatus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-bifasciatus",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-bifasciatus.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 4.5,
+      "temperature": {
+        "min": 20.0,
+        "max": 25.0
+      },
+      "ph": {
+        "min": 5.8,
+        "max": 8.0
+      },
+      "minimum_group": 8,
+      "social_type": "kept alone",
+      "temperament": "peaceful",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Coastal river drainages from Espírito Santo to Rio Grande do Sul, Brazil and upper Paraná River basin."
     }
   ]
 }
