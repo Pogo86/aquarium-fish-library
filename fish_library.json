@@ -1377,6 +1377,64 @@
       "ecology": "benthopelagic",
       "climate": "subtropical",
       "distribution": "North America: Mexico."
+    },
+    {
+      "id": "bario_oligolepis",
+      "common_name": "Glass Tetra",
+      "scientific_name": "Bario oligolepis",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/bario-oligolepis",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Bario-oligolepis.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 5.0,
+      "ph": {
+        "min": 5.5,
+        "max": 7.2
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 12.0
+      },
+      "minimum_group": 6,
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Venezuela, the Guianas and the Amazon River basin."
     }
   ]
 }
