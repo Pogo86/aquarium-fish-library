@@ -1674,6 +1674,65 @@
       "ecology": "benthopelagic",
       "climate": "subtropical",
       "distribution": "South America: Paraguay River basin and along the lower Paraná River in Argentina"
+    },
+    {
+      "id": "prionobrama_filigera",
+      "common_name": "Glass Bloodfin Tetra",
+      "scientific_name": "Prionobrama filigera",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/prionobrama-filigera",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Prionobrama-filigera.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "ph differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 6.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 27.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.0
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "moderate",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: Amazon River basin."
     }
   ]
 }
