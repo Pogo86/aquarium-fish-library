@@ -1,0 +1,27 @@
+type: custom:aquarium-manager-card
+tank_name: Main Aquarium
+entity_prefix: main_aquarium
+
+# Only add overrides if Home Assistant generated different entity IDs:
+#
+# entities:
+#   temperature: sensor.your_aquarium_temperature
+#   volume: sensor.main_aquarium_calculated_volume
+#   dimensions: sensor.main_aquarium_dimensions
+#   stocking: sensor.main_aquarium_stocking
+#   community: sensor.main_aquarium_community
+#   library: sensor.main_aquarium_fish_library
+#   water_status: sensor.main_aquarium_water_status
+#   ammonia: number.main_aquarium_ammonia
+#   nitrite: number.main_aquarium_nitrite
+#   nitrate: number.main_aquarium_nitrate
+#   ph: number.main_aquarium_ph
+#   gh: number.main_aquarium_gh
+#   kh: number.main_aquarium_kh
+#   source_nitrate: number.main_aquarium_source_water_nitrate
+#   source_ph: number.main_aquarium_source_water_ph
+#   source_gh: number.main_aquarium_source_water_gh
+#   source_kh: number.main_aquarium_source_water_kh
+#   gh_delta: sensor.main_aquarium_gh_above_source_water
+#   kh_delta: sensor.main_aquarium_kh_above_source_water
+#   nitrate_delta: sensor.main_aquarium_nitrate_above_source_water

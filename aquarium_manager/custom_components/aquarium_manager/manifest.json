@@ -1,0 +1,11 @@
+{
+  "domain": "aquarium_manager",
+  "name": "Aquarium Manager",
+  "version": "0.5.0",
+  "config_flow": true,
+  "codeowners": [],
+  "dependencies": [],
+  "requirements": [],
+  "integration_type": "helper",
+  "iot_class": "cloud_polling"
+}

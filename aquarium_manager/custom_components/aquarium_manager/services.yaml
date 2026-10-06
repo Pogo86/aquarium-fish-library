@@ -1,0 +1,239 @@
+add_stock:
+  name: Add livestock
+  description: Add a species or livestock group to an aquarium. Known species are enriched from the active fish library.
+  fields:
+    entry_id:
+      name: Aquarium config entry ID
+      required: true
+      selector:
+        text:
+    name:
+      name: Species/name
+      required: true
+      selector:
+        text:
+    quantity:
+      name: Quantity
+      required: true
+      default: 1
+      selector:
+        number:
+          min: 1
+          max: 999
+          mode: box
+    scientific_name:
+      name: Scientific name
+      required: false
+      selector:
+        text:
+    notes:
+      name: Notes
+      required: false
+      selector:
+        text:
+          multiline: true
+
+update_stock:
+  name: Edit livestock
+  description: Edit a stocking record and its care parameters.
+  fields:
+    entry_id:
+      name: Aquarium config entry ID
+      required: true
+      selector:
+        text:
+    stock_id:
+      name: Stocking record ID
+      required: true
+      selector:
+        text:
+    name:
+      name: Species/name
+      required: false
+      selector:
+        text:
+    quantity:
+      name: Quantity
+      required: false
+      selector:
+        number:
+          min: 1
+          max: 999
+          mode: box
+    scientific_name:
+      name: Scientific name
+      required: false
+      selector:
+        text:
+    adult_size_cm:
+      name: Adult size
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 0.1
+          unit_of_measurement: cm
+          mode: box
+    temperature_min:
+      name: Minimum temperature
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 40
+          step: 0.1
+          unit_of_measurement: °C
+          mode: box
+    temperature_max:
+      name: Maximum temperature
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 40
+          step: 0.1
+          unit_of_measurement: °C
+          mode: box
+    ph_min:
+      name: Minimum pH
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 14
+          step: 0.1
+          mode: box
+    ph_max:
+      name: Maximum pH
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 14
+          step: 0.1
+          mode: box
+    gh_min:
+      name: Minimum GH
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 50
+          step: 0.1
+          unit_of_measurement: dGH
+          mode: box
+    gh_max:
+      name: Maximum GH
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 50
+          step: 0.1
+          unit_of_measurement: dGH
+          mode: box
+    kh_min:
+      name: Minimum KH
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 50
+          step: 0.1
+          unit_of_measurement: dKH
+          mode: box
+    kh_max:
+      name: Maximum KH
+      required: false
+      selector:
+        number:
+          min: 0
+          max: 50
+          step: 0.1
+          unit_of_measurement: dKH
+          mode: box
+    min_group_size:
+      name: Minimum group size
+      required: false
+      selector:
+        number:
+          min: 1
+          max: 999
+          mode: box
+    min_tank_length_cm:
+      name: Minimum tank length
+      required: false
+      selector:
+        number:
+          min: 1
+          max: 1000
+          step: 1
+          unit_of_measurement: cm
+          mode: box
+    min_tank_width_cm:
+      name: Minimum tank width
+      required: false
+      selector:
+        number:
+          min: 1
+          max: 1000
+          step: 1
+          unit_of_measurement: cm
+          mode: box
+    min_tank_height_cm:
+      name: Minimum tank height
+      required: false
+      selector:
+        number:
+          min: 1
+          max: 1000
+          step: 1
+          unit_of_measurement: cm
+          mode: box
+    social_type:
+      name: Social type
+      required: false
+      selector:
+        text:
+    temperament:
+      name: Temperament
+      required: false
+      selector:
+        text:
+    swimming_zone:
+      name: Swimming zone
+      required: false
+      selector:
+        text:
+    notes:
+      name: Notes
+      required: false
+      selector:
+        text:
+          multiline: true
+
+remove_stock:
+  name: Remove livestock
+  description: Remove an existing stocking record from an aquarium.
+  fields:
+    entry_id:
+      name: Aquarium config entry ID
+      required: true
+      selector:
+        text:
+    stock_id:
+      name: Stocking record ID
+      required: true
+      selector:
+        text:
+
+refresh_species_library:
+  name: Refresh species library
+  description: Download and validate the configured fish-library JSON immediately. The current library remains active if validation fails.
+  fields:
+    entry_id:
+      name: Aquarium config entry ID
+      required: true
+      selector:
+        text:

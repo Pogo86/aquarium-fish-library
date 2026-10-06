@@ -1,0 +1,47 @@
+{
+  "title": "Aquarium Manager",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add an aquarium",
+        "description": "Enter the internal aquarium dimensions. Volume will be calculated automatically from length \u00d7 width \u00d7 water depth.",
+        "data": {
+          "tank_name": "Tank name",
+          "length_cm": "Internal length",
+          "width_cm": "Internal width",
+          "water_depth_cm": "Water depth",
+          "water_type": "Water type",
+          "temperature_entity": "Existing temperature sensor (optional)"
+        },
+        "data_description": {
+          "tank_name": "A friendly name such as Main Aquarium.",
+          "length_cm": "Internal tank length in centimetres.",
+          "width_cm": "Internal front-to-back width in centimetres.",
+          "water_depth_cm": "Actual water depth.",
+          "water_type": "Freshwater or marine.",
+          "temperature_entity": "Choose your aquarium temperature probe if it already exists in Home Assistant."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "An aquarium with this name is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Fish library",
+        "description": "Optionally use a JSON fish library hosted on GitHub or another HTTP(S) location. Leave blank to use the bundled starter library.",
+        "data": {
+          "species_library_url": "Fish library JSON URL"
+        },
+        "data_description": {
+          "species_library_url": "Use the Raw GitHub URL to fish_library.json. The last valid copy is cached and refreshed every 24 hours."
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Enter a valid http:// or https:// URL."
+    }
+  }
+}
