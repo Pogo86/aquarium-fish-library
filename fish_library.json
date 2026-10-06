@@ -1733,6 +1733,70 @@
       "ecology": "pelagic",
       "climate": "tropical",
       "distribution": "South America: Amazon River basin."
+    },
+    {
+      "id": "petitella_rhodostoma",
+      "common_name": "Rummy-nose tetra",
+      "scientific_name": "Petitella rhodostoma",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 10 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/petitella-rhodostoma",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Petitella-rhodostoma.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 5.0,
+      "ph": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "gh": {
+        "min": 2.0,
+        "max": 15.0
+      },
+      "minimum_group": 10,
+      "minimum_tank": {
+        "length_cm": 80.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: lower Amazon River basin and Orinoco River basin."
     }
   ]
 }
