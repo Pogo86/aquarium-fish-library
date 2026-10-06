@@ -2364,6 +2364,59 @@
       "ecology": "pelagic",
       "climate": "tropical",
       "distribution": "South America: Amazon, Orinoco, and coastal river drainages of the Guianas."
+    },
+    {
+      "id": "thayeria_obliqua",
+      "common_name": "Penguin Tetra",
+      "scientific_name": "Thayeria obliqua",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/thayeria-obliqua",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Thayeria-obliqua.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 8.0,
+      "temperature": {
+        "min": 22.0,
+        "max": 28.0
+      },
+      "minimum_group": 6,
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: middle Amazon, middle Tocantins and Guaporé River basins."
     }
   ]
 }
