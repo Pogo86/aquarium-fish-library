@@ -1,8 +1,677 @@
 {
   "schema_version": 1,
   "library_name": "Aquarium Manager Starter Fish Library",
-  "updated": "2026-10-06",
+  "updated": "2026-10-09",
   "species": [
+    {
+      "id": "alestopetersius_nigropterus",
+      "common_name": "African Rainbow Tetra",
+      "scientific_name": "Alestopetersius nigropterus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/alestopetersius-sp-1",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Alestopetersius-nigropterus.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 6.0,
+      "minimum_group": 8,
+      "minimum_tank_volume_l": 108.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "Africa: Lake Mai-Ndombe (middle Congo River basin) in Democratic Republic of the Congo (Ref. 42032 )."
+    },
+    {
+      "id": "arnoldichthys_spilopterus",
+      "common_name": "African Red-eyed Tetra",
+      "scientific_name": "Arnoldichthys spilopterus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "gh": "fishbase",
+        "minimum_group": "fishbase",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/arnoldichthys-spilopterus",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Arnoldichthys-spilopterus.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 10.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 8.0
+      },
+      "gh": {
+        "min": 5.0,
+        "max": 19.0
+      },
+      "minimum_group": 5,
+      "minimum_tank": {
+        "length_cm": 100.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 108.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "Africa: lower Niger and Ogun rivers in Nigeria (Ref. 2880 , 81279 )."
+    },
+    {
+      "id": "angelfish",
+      "common_name": "Angelfish",
+      "scientific_name": "Pterophyllum scalare",
+      "aliases": [
+        "angel fish",
+        "freshwater angelfish",
+        "scalare"
+      ],
+      "adult_size_cm": 15.0,
+      "temperature": {
+        "min": 24.0,
+        "max": 30.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.4
+      },
+      "gh": {
+        "min": 0.0,
+        "max": 15.0
+      },
+      "kh": null,
+      "minimum_group": null,
+      "minimum_tank": {
+        "length_cm": 100,
+        "width_cm": 40,
+        "height_cm": 50
+      },
+      "social_type": "pair or small group",
+      "temperament": "generally peaceful cichlid; territorial when breeding",
+      "swimming_zone": "middle",
+      "cautions": [
+        "Adults need a tall aquarium and may eat sufficiently small fish.",
+        "Individuals can become territorial, especially when breeding."
+      ],
+      "source": {
+        "label": "Seriously Fish",
+        "url": "https://www.seriouslyfish.com/species/pterophyllum-scalare"
+      }
+    },
+    {
+      "id": "hyphessobrycon_herbertaxelrodi",
+      "common_name": "Black Neon Tetra",
+      "scientific_name": "Hyphessobrycon herbertaxelrodi",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-herbertaxelrodi.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 3.5,
+      "temperature": {
+        "min": 23.0,
+        "max": 27.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 72.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Paraguay River basin."
+    },
+    {
+      "id": "megalamphodus_megalopterus",
+      "common_name": "Black Phantom Tetra",
+      "scientific_name": "Megalamphodus megalopterus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Megalamphodus-megalopterus.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 3.6,
+      "temperature": {
+        "min": 22.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 72.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Upper Paraguay and Guaporé River basins."
+    },
+    {
+      "id": "astyanax_mexicanus",
+      "common_name": "Blind Cave Tetra",
+      "scientific_name": "Astyanax mexicanus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/astyanax-mexicanus",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Astyanax-mexicanus.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 9.5,
+      "minimum_tank_volume_l": 72.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "subtropical",
+      "distribution": "North America: Mexico."
+    },
+    {
+      "id": "aphyocharax_anisitsi",
+      "common_name": "Bloodfin Tetra",
+      "scientific_name": "Aphyocharax anisitsi",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_group": "fishbase",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/aphyocharax-anisitsi",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Aphyocharax-anisitsi.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 5.5,
+      "temperature": {
+        "min": 18.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 8.0
+      },
+      "minimum_group": 5,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 54.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "subtropical",
+      "distribution": "South America: Paraná River basin."
+    },
+    {
+      "id": "alestopetersius_smykalai",
+      "common_name": "Blue Diamond Tetra",
+      "scientific_name": "Alestopetersius smykalai",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "gh": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/alestopetersius-smykalai",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Alestopetersius-smykalai.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 6.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 27.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.2
+      },
+      "gh": {
+        "min": 8.0,
+        "max": 15.0
+      },
+      "minimum_group": 8,
+      "minimum_tank_volume_l": 108.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "Africa: Lower Niger (Ref. 2880 , 81279 )."
+    },
+    {
+      "id": "apistogramma_borellii",
+      "common_name": "Borelli's Dwarf Cichlid",
+      "scientific_name": "Apistogramma borellii",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "fishbase",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "gh": "fishbase",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/apistogramma-borellii",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Apistogramma-borellii.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 3.9,
+      "temperature": {
+        "min": 24.0,
+        "max": 25.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 8.0
+      },
+      "gh": {
+        "min": 5.0,
+        "max": 19.0
+      },
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 41.0,
+      "social_type": "in a pair",
+      "temperament": "peaceful",
+      "diet_type": "carnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "subtropical",
+      "distribution": "South America: Paraguay River basin and along the lower Paraná River in Argentina"
+    },
+    {
+      "id": "bristlenose_pleco",
+      "common_name": "Bristlenose pleco",
+      "scientific_name": "Ancistrus sp. '3'",
+      "aliases": [
+        "bristlenose",
+        "bristlenose catfish",
+        "common bristlenose",
+        "ancistrus"
+      ],
+      "adult_size_cm": 12.5,
+      "temperature": {
+        "min": 21.0,
+        "max": 26.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 15.0
+      },
+      "kh": null,
+      "minimum_group": 1,
+      "minimum_tank": {
+        "length_cm": 60,
+        "width_cm": 30,
+        "height_cm": null
+      },
+      "social_type": "single or pair",
+      "temperament": "peaceful; territorial with similar catfish",
+      "swimming_zone": "bottom",
+      "cautions": [
+        "Provide cover and be cautious with multiple similar plecos."
+      ],
+      "source": {
+        "label": "Seriously Fish",
+        "url": "https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus"
+      }
+    },
+    {
+      "id": "osteogaster_aenea",
+      "common_name": "Bronze Cory",
+      "scientific_name": "Osteogaster aenea",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 4 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "gh": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/osteogaster-aenea",
+          "checked": "2026-10-09"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Osteogaster-aenea.html",
+          "checked": "2026-10-09"
+        }
+      },
+      "source_notes": [
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 7.5,
+      "temperature": {
+        "min": 25,
+        "max": 28
+      },
+      "ph": {
+        "min": 6,
+        "max": 8
+      },
+      "gh": {
+        "min": 5,
+        "max": 19
+      },
+      "minimum_group": 4,
+      "minimum_tank": {
+        "length_cm": 60,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 72,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "demersal",
+      "climate": "subtropical",
+      "distribution": "South America: Colombia and Trinidad to La Plata River basin east of the Andes.",
+      "diet_type": ""
+    },
+    {
+      "id": "buenos_aires_tetra",
+      "common_name": "Buenos Aires tetra",
+      "scientific_name": "Hyphessobrycon anisitsi",
+      "aliases": [
+        "buenos aires tetras",
+        "buenos aries tetra",
+        "buenos aries tetras"
+      ],
+      "adult_size_cm": 6.0,
+      "temperature": {
+        "min": 16.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 8.5
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 20.0
+      },
+      "kh": null,
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 90,
+        "width_cm": 30,
+        "height_cm": null
+      },
+      "social_type": "shoal",
+      "temperament": "active; can fin-nip",
+      "swimming_zone": "middle",
+      "cautions": [
+        "Keep at least 8–10; undersized groups can increase fin-nipping.",
+        "Needs a relatively long tank for active swimming."
+      ],
+      "source": {
+        "label": "Seriously Fish",
+        "url": "https://www.seriouslyfish.com/species/hyphessobrycon-anisitsi"
+      }
+    },
     {
       "id": "cardinal_tetra",
       "common_name": "Cardinal Tetra",
@@ -82,167 +751,196 @@
       ]
     },
     {
-      "id": "buenos_aires_tetra",
-      "common_name": "Buenos Aires tetra",
-      "scientific_name": "Hyphessobrycon anisitsi",
-      "aliases": [
-        "buenos aires tetras",
-        "buenos aries tetra",
-        "buenos aries tetras"
-      ],
-      "adult_size_cm": 6.0,
-      "temperature": {
-        "min": 16.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 8.5
-      },
-      "gh": {
-        "min": 1.0,
-        "max": 20.0
-      },
-      "kh": null,
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 90,
-        "width_cm": 30,
-        "height_cm": null
-      },
-      "social_type": "shoal",
-      "temperament": "active; can fin-nip",
-      "swimming_zone": "middle",
-      "cautions": [
-        "Keep at least 8–10; undersized groups can increase fin-nipping.",
-        "Needs a relatively long tank for active swimming."
-      ],
-      "source": {
-        "label": "Seriously Fish",
-        "url": "https://www.seriouslyfish.com/species/hyphessobrycon-anisitsi"
-      }
-    },
-    {
-      "id": "angelfish",
-      "common_name": "Angelfish",
-      "scientific_name": "Pterophyllum scalare",
-      "aliases": [
-        "angel fish",
-        "freshwater angelfish",
-        "scalare"
-      ],
-      "adult_size_cm": 15.0,
-      "temperature": {
-        "min": 24.0,
-        "max": 30.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 7.4
-      },
-      "gh": {
-        "min": 0.0,
-        "max": 15.0
-      },
-      "kh": null,
-      "minimum_group": null,
-      "minimum_tank": {
-        "length_cm": 100,
-        "width_cm": 40,
-        "height_cm": 50
-      },
-      "social_type": "pair or small group",
-      "temperament": "generally peaceful cichlid; territorial when breeding",
-      "swimming_zone": "middle",
-      "cautions": [
-        "Adults need a tall aquarium and may eat sufficiently small fish.",
-        "Individuals can become territorial, especially when breeding."
-      ],
-      "source": {
-        "label": "Seriously Fish",
-        "url": "https://www.seriouslyfish.com/species/pterophyllum-scalare"
-      }
-    },
-    {
-      "id": "bristlenose_pleco",
-      "common_name": "Bristlenose pleco",
-      "scientific_name": "Ancistrus sp. '3'",
-      "aliases": [
-        "bristlenose",
-        "bristlenose catfish",
-        "common bristlenose",
-        "ancistrus"
-      ],
-      "adult_size_cm": 12.5,
-      "temperature": {
-        "min": 21.0,
-        "max": 26.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 7.5
-      },
-      "gh": {
-        "min": 1.0,
-        "max": 15.0
-      },
-      "kh": null,
-      "minimum_group": 1,
-      "minimum_tank": {
-        "length_cm": 60,
-        "width_cm": 30,
-        "height_cm": null
-      },
-      "social_type": "single or pair",
-      "temperament": "peaceful; territorial with similar catfish",
-      "swimming_zone": "bottom",
-      "cautions": [
-        "Provide cover and be cautious with multiple similar plecos."
-      ],
-      "source": {
-        "label": "Seriously Fish",
-        "url": "https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus"
-      }
-    },
-    {
-      "id": "bronze_corydoras",
-      "common_name": "Bronze Cory",
-      "scientific_name": "Osteogaster aenea",
+      "id": "alestopetersius_brichardi",
+      "common_name": "Cherry Red Congo Tetra",
+      "scientific_name": "Alestopetersius brichardi",
       "aliases": [],
-      "adult_size_cm": 7.5,
-      "temperature": {
-        "min": 25.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 8.0
-      },
-      "gh": {
-        "min": 5.0,
-        "max": 19.0
-      },
       "kh": null,
-      "minimum_group": 4,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
       },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/alestopetersius-brichardi",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Alestopetersius-brichardi.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 8.0,
+      "minimum_group": 8,
+      "minimum_tank_volume_l": 108.0,
       "social_type": "shoal",
       "temperament": "peaceful",
-      "swimming_zone": "bottom",
-      "minimum_tank_volume_l": 72.0,
       "difficulty": "easy",
       "environment_type": "freshwater",
-      "ecology": "demersal",
-      "climate": "subtropical",
-      "distribution": "South America: Colombia and Trinidad to La Plata River basin east of the Andes.",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "Africa: Pool Malebo, the middle Congo River, the Ruki drainage (Ref. 42032 ) and the Lomami (Ref. 106245 ) in Democratic Republic of the Congo."
+    },
+    {
+      "id": "phenacogrammus_interruptus",
+      "common_name": "Congo Tetra",
+      "scientific_name": "Phenacogrammus interruptus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
       "field_sources": {
         "adult_size_cm": "seriouslyfish",
         "temperature": "fishbase",
-        "ph": "fishbase",
-        "gh": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "fishbase",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/phenacogrammus-interruptus",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Phenacogrammus-interruptus.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "ph differs between sources; SeriouslyFish value used.",
+        "gh differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 8.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 26.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "gh": {
+        "min": 3.0,
+        "max": 18.0
+      },
+      "minimum_group": 5,
+      "minimum_tank": {
+        "length_cm": 100.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 108.0,
+      "social_type": "unknown",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "Africa: lower and middle Congo River basin in Democratic Republic of the Congo (Ref. 42032 ) and Republic of Congo (Ref. 44840 )."
+    },
+    {
+      "id": "aphyocharax_nattereri",
+      "common_name": "Dawn Tetra",
+      "scientific_name": "Aphyocharax nattereri",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/aphyocharax-nattereri",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Aphyocharax-nattereri.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "ph differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 3.5,
+      "temperature": {
+        "min": 22.0,
+        "max": 27.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 6.0
+      },
+      "gh": {
+        "min": 2.0,
+        "max": 5.0
+      },
+      "minimum_tank_volume_l": 54.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Amazon and Paraguay River basins."
+    },
+    {
+      "id": "makunaima_pittieri",
+      "common_name": "Diamond Tetra",
+      "scientific_name": "Makunaima pittieri",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
         "minimum_group": "seriouslyfish",
         "minimum_tank": "fishbase",
         "minimum_tank_volume_l": "seriouslyfish",
@@ -257,77 +955,217 @@
       "sources": {
         "seriouslyfish": {
           "status": "found",
-          "url": "https://www.seriouslyfish.com/species/osteogaster-aenea",
+          "url": "https://www.seriouslyfish.com/species/makunaima-pittieri",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Makunaima-pittieri.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "ph differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 6.0,
+      "temperature": {
+        "min": 24.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "gh": {
+        "min": 5.0,
+        "max": 12.0
+      },
+      "minimum_group": 6,
+      "minimum_tank": {
+        "length_cm": 80.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "moderate",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Lake Valencia basin in Venezuela."
+    },
+    {
+      "id": "brachychalcinus_orbicularis",
+      "common_name": "Discus Tetra",
+      "scientific_name": "Brachychalcinus orbicularis",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/brachychalcinus-orbicularis",
           "checked": "2026-10-05"
         },
         "fishbase": {
           "status": "found",
-          "url": "https://www.fishbase.se/summary/Osteogaster-aenea.html",
+          "url": "https://www.fishbase.se/summary/Brachychalcinus-orbicularis.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 9.0,
+      "temperature": {
+        "min": 18.0,
+        "max": 24.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "minimum_tank_volume_l": 108.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Coastal drainages of Suriname and Guyana."
+    },
+    {
+      "id": "hyphessobrycon_amandae",
+      "common_name": "Ember Tetra",
+      "scientific_name": "Hyphessobrycon amandae",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-amandae",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-amandae.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 2.0,
+      "temperature": {
+        "min": 24.0,
+        "max": 28.0
+      },
+      "minimum_tank_volume_l": 41.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Araguaia River basin."
+    },
+    {
+      "id": "poecilia_wingei",
+      "common_name": "Endler's Livebearer",
+      "scientific_name": "Poecilia wingei",
+      "aliases": [
+        "Endler's"
+      ],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/poecilia-wingei",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Poecilia-wingei.html",
           "checked": "2026-10-05"
         }
       },
       "source_notes": [
-        "minimum_group differs between sources; SeriouslyFish value used."
+        "adult_size_cm differs between sources; SeriouslyFish value used."
       ],
-      "cautions": [
-        "Keep at least 4 individuals."
-      ]
-    },
-    {
-      "id": "paracheirodon_innesi",
-      "common_name": "Neon Tetra",
-      "scientific_name": "Paracheirodon innesi",
-      "aliases": [],
-      "adult_size_cm": 3.0,
-      "temperature": {
-        "min": 20.0,
-        "max": 26.0
-      },
+      "adult_size_cm": 2.5,
       "ph": {
-        "min": 5.5,
-        "max": 6.5
+        "min": 7.0,
+        "max": 8.5
       },
       "gh": {
-        "min": 1.0,
-        "max": 5.0
+        "min": 15.0,
+        "max": 35.0
       },
-      "kh": null,
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "social_type": "shoal",
+      "minimum_tank_volume_l": 41.0,
+      "social_type": "unknown",
       "temperament": "peaceful",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Campoma- and Buena Vista Lagoons in Venezuela."
+    },
+    {
+      "id": "hyphessobrycon_flammeus",
+      "common_name": "Flame Tetra",
+      "scientific_name": "Hyphessobrycon flammeus",
+      "aliases": [],
+      "kh": null,
       "swimming_zone": "",
       "cautions": [
         "Keep at least 8 individuals."
       ],
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "minimum_tank_volume_l": 54.0,
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "South America: Blackwater or clearwater stream tributaries of the Solimões River.",
       "field_sources": {
         "adult_size_cm": "seriouslyfish",
         "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
+        "ph": "fishbase",
+        "gh": "fishbase",
         "minimum_group": "seriouslyfish",
         "minimum_tank": "fishbase",
         "minimum_tank_volume_l": "seriouslyfish",
@@ -340,12 +1178,372 @@
         "climate": "fishbase",
         "distribution": "fishbase"
       },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-flammeus",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-flammeus.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 2.5,
+      "temperature": {
+        "min": 22.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.8,
+        "max": 7.8
+      },
+      "gh": {
+        "min": 5.0,
+        "max": 25.0
+      },
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 54.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "moderate",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Brazil in streams and coastal rivers of Rio de Janeiro, in Guanabara bay basin, middle rio Paraíba do Sul basin and rio Guandu basin, and upper rio Tietê drainage (upper rio Paraná basin, São Paulo) (Ref. 96863 ). Thought to be extinct in the wild (Ref. 89952 )."
+    },
+    {
+      "id": "poecilia_velifera",
+      "common_name": "Giant Sailfin Molly",
+      "scientific_name": "Poecilia velifera",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/poecilia-velifera",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Poecilia-velifera.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "ph differs between sources; SeriouslyFish value used.",
+        "gh differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 15.0,
+      "temperature": {
+        "min": 25.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 7.0,
+        "max": 8.5
+      },
+      "gh": {
+        "min": 15.0,
+        "max": 35.0
+      },
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 104.0,
+      "social_type": "unknown",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater, brackish",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "Central America: Yucatán-Quintana Roo and lower Usumacinta-Laguna de Términos systems in Mexico."
+    },
+    {
+      "id": "prionobrama_filigera",
+      "common_name": "Glass Bloodfin Tetra",
+      "scientific_name": "Prionobrama filigera",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/prionobrama-filigera",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Prionobrama-filigera.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "ph differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 6.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 27.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.0
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "moderate",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: Amazon River basin."
+    },
+    {
+      "id": "bario_oligolepis",
+      "common_name": "Glass Tetra",
+      "scientific_name": "Bario oligolepis",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/bario-oligolepis",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Bario-oligolepis.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 5.0,
+      "ph": {
+        "min": 5.5,
+        "max": 7.2
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 12.0
+      },
+      "minimum_group": 6,
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Venezuela, the Guianas and the Amazon River basin."
+    },
+    {
+      "id": "hemigrammus_erythrozonus",
+      "common_name": "Glowlight Tetra",
+      "scientific_name": "Hemigrammus erythrozonus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hemigrammus-erythrozonus",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hemigrammus-erythrozonus.html",
+          "checked": "2026-10-06"
+        }
+      },
       "source_notes": [
         "adult_size_cm differs between sources; SeriouslyFish value used.",
         "ph differs between sources; SeriouslyFish value used.",
         "gh differs between sources; SeriouslyFish value used.",
         "minimum_group differs between sources; SeriouslyFish value used."
-      ]
+      ],
+      "adult_size_cm": 4.0,
+      "temperature": {
+        "min": 24.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "gh": {
+        "min": 2.0,
+        "max": 15.0
+      },
+      "minimum_group": 6,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "moderate",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Essequibo River."
+    },
+    {
+      "id": "hemigrammus_rodwayi",
+      "common_name": "Golden Tetra",
+      "scientific_name": "Hemigrammus rodwayi",
+      "aliases": [
+        "Gold Tetra"
+      ],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hemigrammus-rodwayi",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hemigrammus-rodwayi.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 5.5,
+      "temperature": {
+        "min": 24.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "gh": {
+        "min": 1.0,
+        "max": 12.0
+      },
+      "minimum_group": 6,
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Rivers of Guyana, Suriname, French Guiana, and Amazon River basin."
     },
     {
       "id": "paracheirodon_simulans",
@@ -473,22 +1671,100 @@
       "distribution": "South America: Venezuela, Barbados, Trinidad, northern Brazil and the Guyanas. Widely introduced and established elsewhere, mainly for mosquito control, but had rare to non-existing effects on mosquitoes, and negative to perhaps neutral effects on native fishes (Ref. 12217 ). Africa: Feral populations reported from the coastal reaches of Natal rivers from Durban southwards, as well as in the Kuruman Eye and Lake Otjikoto in Namibia (Ref. 7248 ). Several countries report adverse ecological impact"
     },
     {
-      "id": "poecilia_wingei",
-      "common_name": "Endler's Livebearer",
-      "scientific_name": "Poecilia wingei",
-      "aliases": [
-        "Endler's"
-      ],
+      "id": "hyphessobrycon_heliacus",
+      "common_name": "Hyphessobrycon",
+      "scientific_name": "Hyphessobrycon heliacus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "fishbase",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "not_found",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-heliacus.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 2.8,
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: Teles Pires River in the upper Tapajós basin, Brazil."
+    },
+    {
+      "id": "astyanax_kennedyi",
+      "common_name": "Kennedy's Tetra",
+      "scientific_name": "Astyanax kennedyi",
+      "aliases": [],
       "kh": null,
       "swimming_zone": "",
       "cautions": [],
       "field_sources": {
         "adult_size_cm": "seriouslyfish",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
         "minimum_tank_volume_l": "seriouslyfish",
         "social_type": "seriouslyfish",
         "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/astyanax-kennedyi",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Astyanax-kennedyi.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 5.0,
+      "minimum_tank_volume_l": 72.0,
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Upper Amazon River basin."
+    },
+    {
+      "id": "hyphessobrycon_pulchripinnis",
+      "common_name": "Lemon Tetra",
+      "scientific_name": "Hyphessobrycon pulchripinnis",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
         "diet_type": "seriouslyfish",
         "environment_type": "fishbase",
         "ecology": "fishbase",
@@ -498,35 +1774,500 @@
       "sources": {
         "seriouslyfish": {
           "status": "found",
-          "url": "https://www.seriouslyfish.com/species/poecilia-wingei",
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-pulchripinnis",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-pulchripinnis.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 4.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 8.0
+      },
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 72.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Tapajós River basin."
+    },
+    {
+      "id": "astyanax_leopoldi",
+      "common_name": "Leopold's Tetra",
+      "scientific_name": "Astyanax leopoldi",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/astyanax-leopoldi",
           "checked": "2026-10-05"
         },
         "fishbase": {
           "status": "found",
-          "url": "https://www.fishbase.se/summary/Poecilia-wingei.html",
+          "url": "https://www.fishbase.se/summary/Astyanax-leopoldi.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 6.0,
+      "minimum_group": 8,
+      "minimum_tank_volume_l": 54.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Approuague and Oyapock River basins."
+    },
+    {
+      "id": "hyphessobrycon_compressus",
+      "common_name": "Mayan Tetra",
+      "scientific_name": "Hyphessobrycon compressus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "compatibility": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-compressus",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-compressus.html",
           "checked": "2026-10-05"
         }
       },
       "source_notes": [
         "adult_size_cm differs between sources; SeriouslyFish value used."
       ],
-      "adult_size_cm": 2.5,
+      "adult_size_cm": 4.5,
+      "temperature": {
+        "min": 23.0,
+        "max": 26.0
+      },
+      "social_type": "shoal",
+      "temperament": "unknown",
+      "compatibility": "community tank",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "North America: Río Papaloapam Basin, Mexico."
+    },
+    {
+      "id": "paracheirodon_innesi",
+      "common_name": "Neon Tetra",
+      "scientific_name": "Paracheirodon innesi",
+      "aliases": [],
+      "adult_size_cm": 3.0,
+      "temperature": {
+        "min": 20.0,
+        "max": 26.0
+      },
       "ph": {
-        "min": 7.0,
-        "max": 8.5
+        "min": 5.5,
+        "max": 6.5
       },
       "gh": {
-        "min": 15.0,
-        "max": 35.0
+        "min": 1.0,
+        "max": 5.0
       },
-      "minimum_tank_volume_l": 41.0,
-      "social_type": "unknown",
+      "kh": null,
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "social_type": "shoal",
       "temperament": "peaceful",
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/paracheirodon-innesi",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "minimum_tank_volume_l": 54.0,
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: Blackwater or clearwater stream tributaries of the Solimões River.",
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "ph differs between sources; SeriouslyFish value used.",
+        "gh differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ]
+    },
+    {
+      "id": "thayeria_obliqua",
+      "common_name": "Penguin Tetra",
+      "scientific_name": "Thayeria obliqua",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 6 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/thayeria-obliqua",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Thayeria-obliqua.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 8.0,
+      "temperature": {
+        "min": 22.0,
+        "max": 28.0
+      },
+      "minimum_group": 6,
+      "minimum_tank_volume_l": 68.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: middle Amazon, middle Tocantins and Guaporé River basins."
+    },
+    {
+      "id": "chalceus_macrolepidotus",
+      "common_name": "Pink-tailed Chalceus",
+      "scientific_name": "Chalceus macrolepidotus",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/chalceus-macrolepidotus",
+          "checked": "2026-10-05"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Chalceus-macrolepidotus.html",
+          "checked": "2026-10-05"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 25.0,
+      "temperature": {
+        "min": 23.0,
+        "max": 28.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "gh": {
+        "min": 5.0,
+        "max": 18.0
+      },
+      "minimum_tank_volume_l": 243.0,
+      "social_type": "unknown",
+      "temperament": "territorial",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "pelagic",
+      "climate": "tropical",
+      "distribution": "South America: Negro and Orinoco River basins and coastal rivers in Guyana, Suriname, and French Guiana."
+    },
+    {
+      "id": "megalamphodus_sweglesi",
+      "common_name": "Red Phantom Tetra",
+      "scientific_name": "Megalamphodus sweglesi",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 8 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/megalamphodus-sweglesi",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Megalamphodus-sweglesi.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 3.5,
+      "temperature": {
+        "min": 20.0,
+        "max": 23.0
+      },
+      "ph": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "minimum_group": 8,
+      "minimum_tank": {
+        "length_cm": 60.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 72.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
       "diet_type": "omnivorous",
       "environment_type": "freshwater",
       "ecology": "benthopelagic",
       "climate": "tropical",
-      "distribution": "South America: Campoma- and Buena Vista Lagoons in Venezuela."
+      "distribution": "South America: Orinoco River basin."
+    },
+    {
+      "id": "axelrodia_riesei",
+      "common_name": "Ruby Tetra",
+      "scientific_name": "Axelrodia riesei",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/axelrodia-riesei",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Axelrodia-riesei.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 2.0,
+      "temperature": {
+        "min": 20.0,
+        "max": 26.0
+      },
+      "minimum_tank_volume_l": 54.0,
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "moderate",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: upper Meta River basin."
+    },
+    {
+      "id": "petitella_rhodostoma",
+      "common_name": "Rummy-nose tetra",
+      "scientific_name": "Petitella rhodostoma",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [
+        "Keep at least 10 individuals."
+      ],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "minimum_group": "seriouslyfish",
+        "minimum_tank": "fishbase",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/petitella-rhodostoma",
+          "checked": "2026-10-06"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Petitella-rhodostoma.html",
+          "checked": "2026-10-06"
+        }
+      },
+      "source_notes": [
+        "minimum_group differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 5.0,
+      "ph": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "gh": {
+        "min": 2.0,
+        "max": 15.0
+      },
+      "minimum_group": 10,
+      "minimum_tank": {
+        "length_cm": 80.0,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "social_type": "shoal",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "diet_type": "omnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: lower Amazon River basin and Orinoco River basin."
     },
     {
       "id": "poecilia_latipinna",
@@ -590,74 +2331,6 @@
       "ecology": "benthopelagic",
       "climate": "subtropical",
       "distribution": "North America: Cape Fear drainage in North Carolina, USA to Veracruz, Mexico. Introduced to many countries. Several countries report adverse ecological impact after introduction. Gulf of Mexico (Ref. 26938 )."
-    },
-    {
-      "id": "poecilia_velifera",
-      "common_name": "Giant Sailfin Molly",
-      "scientific_name": "Poecilia velifera",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/poecilia-velifera",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Poecilia-velifera.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "ph differs between sources; SeriouslyFish value used.",
-        "gh differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 15.0,
-      "temperature": {
-        "min": 25.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 7.0,
-        "max": 8.5
-      },
-      "gh": {
-        "min": 15.0,
-        "max": 35.0
-      },
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 104.0,
-      "social_type": "unknown",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater, brackish",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "Central America: Yucatán-Quintana Roo and lower Usumacinta-Laguna de Términos systems in Mexico."
     },
     {
       "id": "poecilia_sphenops",
@@ -729,507 +2402,6 @@
       "distribution": "Central and South America: Mexico to Colombia. Often confused with Poecilia mexicana (Ref. 1739 )."
     },
     {
-      "id": "hyphessobrycon_bifasciatus",
-      "common_name": "Yellow Tetra",
-      "scientific_name": "Hyphessobrycon bifasciatus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-bifasciatus",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-bifasciatus.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 4.5,
-      "temperature": {
-        "min": 20.0,
-        "max": 25.0
-      },
-      "ph": {
-        "min": 5.8,
-        "max": 8.0
-      },
-      "minimum_group": 8,
-      "social_type": "kept alone",
-      "temperament": "peaceful",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Coastal river drainages from Espírito Santo to Rio Grande do Sul, Brazil and upper Paraná River basin."
-    },
-    {
-      "id": "hyphessobrycon_compressus",
-      "common_name": "Mayan Tetra",
-      "scientific_name": "Hyphessobrycon compressus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "compatibility": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-compressus",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-compressus.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 4.5,
-      "temperature": {
-        "min": 23.0,
-        "max": 26.0
-      },
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "compatibility": "community tank",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "North America: Río Papaloapam Basin, Mexico."
-    },
-    {
-      "id": "alestopetersius_brichardi",
-      "common_name": "Cherry Red Congo Tetra",
-      "scientific_name": "Alestopetersius brichardi",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/alestopetersius-brichardi",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Alestopetersius-brichardi.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 8.0,
-      "minimum_group": 8,
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "Africa: Pool Malebo, the middle Congo River, the Ruki drainage (Ref. 42032 ) and the Lomami (Ref. 106245 ) in Democratic Republic of the Congo."
-    },
-    {
-      "id": "alestopetersius_caudalis",
-      "common_name": "Yellow-Tailed Congo Tetra",
-      "scientific_name": "Alestopetersius caudalis",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/alestopetersius-caudalis",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Alestopetersius-caudalis.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 6.0,
-      "temperature": {
-        "min": 22.0,
-        "max": 26.0
-      },
-      "ph": {
-        "min": 6.5,
-        "max": 7.8
-      },
-      "minimum_group": 8,
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "Africa: lower and middle Congo River basin in Democratic Republic of the Congo and Central African Republic (Ref. 42032 ), including the marine lower Congo, Lake Tumba, Ruki drainage, Ubangi, Uele (Ref. 42032 ), Itimbiri, Aruwimi (Ref. 42032 , 106290 ) and Lindi-Tshopo (Ref. 106290 )."
-    },
-    {
-      "id": "alestopetersius_nigropterus",
-      "common_name": "African Rainbow Tetra",
-      "scientific_name": "Alestopetersius nigropterus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/alestopetersius-sp-1",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Alestopetersius-nigropterus.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 6.0,
-      "minimum_group": 8,
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "Africa: Lake Mai-Ndombe (middle Congo River basin) in Democratic Republic of the Congo (Ref. 42032 )."
-    },
-    {
-      "id": "alestopetersius_smykalai",
-      "common_name": "Blue Diamond Tetra",
-      "scientific_name": "Alestopetersius smykalai",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "gh": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/alestopetersius-smykalai",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Alestopetersius-smykalai.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 6.0,
-      "temperature": {
-        "min": 23.0,
-        "max": 27.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 7.2
-      },
-      "gh": {
-        "min": 8.0,
-        "max": 15.0
-      },
-      "minimum_group": 8,
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "Africa: Lower Niger (Ref. 2880 , 81279 )."
-    },
-    {
-      "id": "aphyocharax_anisitsi",
-      "common_name": "Bloodfin Tetra",
-      "scientific_name": "Aphyocharax anisitsi",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_group": "fishbase",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/aphyocharax-anisitsi",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Aphyocharax-anisitsi.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 5.5,
-      "temperature": {
-        "min": 18.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 8.0
-      },
-      "minimum_group": 5,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 54.0,
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "subtropical",
-      "distribution": "South America: Paraná River basin."
-    },
-    {
-      "id": "aphyocharax_nattereri",
-      "common_name": "Dawn Tetra",
-      "scientific_name": "Aphyocharax nattereri",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/aphyocharax-nattereri",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Aphyocharax-nattereri.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used.",
-        "ph differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 3.5,
-      "temperature": {
-        "min": 22.0,
-        "max": 27.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 6.0
-      },
-      "gh": {
-        "min": 2.0,
-        "max": 5.0
-      },
-      "minimum_tank_volume_l": 54.0,
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Amazon and Paraguay River basins."
-    },
-    {
-      "id": "arnoldichthys_spilopterus",
-      "common_name": "African Red-eyed Tetra",
-      "scientific_name": "Arnoldichthys spilopterus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "gh": "fishbase",
-        "minimum_group": "fishbase",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/arnoldichthys-spilopterus",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Arnoldichthys-spilopterus.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 10.0,
-      "temperature": {
-        "min": 23.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 8.0
-      },
-      "gh": {
-        "min": 5.0,
-        "max": 19.0
-      },
-      "minimum_group": 5,
-      "minimum_tank": {
-        "length_cm": 100.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "Africa: lower Niger and Ogun rivers in Nigeria (Ref. 2880 , 81279 )."
-    },
-    {
       "id": "astyanax_bimaculatus",
       "common_name": "Two Spot Astyanax",
       "scientific_name": "Astyanax bimaculatus",
@@ -1284,1053 +2456,6 @@
       "ecology": "benthopelagic",
       "climate": "subtropical",
       "distribution": "South America: Panama to the Amazon basin."
-    },
-    {
-      "id": "astyanax_kennedyi",
-      "common_name": "Kennedy's Tetra",
-      "scientific_name": "Astyanax kennedyi",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/astyanax-kennedyi",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Astyanax-kennedyi.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 5.0,
-      "minimum_tank_volume_l": 72.0,
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Upper Amazon River basin."
-    },
-    {
-      "id": "astyanax_leopoldi",
-      "common_name": "Leopold's Tetra",
-      "scientific_name": "Astyanax leopoldi",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/astyanax-leopoldi",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Astyanax-leopoldi.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 6.0,
-      "minimum_group": 8,
-      "minimum_tank_volume_l": 54.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Approuague and Oyapock River basins."
-    },
-    {
-      "id": "astyanax_mexicanus",
-      "common_name": "Blind Cave Tetra",
-      "scientific_name": "Astyanax mexicanus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/astyanax-mexicanus",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Astyanax-mexicanus.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 9.5,
-      "minimum_tank_volume_l": 72.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "subtropical",
-      "distribution": "North America: Mexico."
-    },
-    {
-      "id": "bario_oligolepis",
-      "common_name": "Glass Tetra",
-      "scientific_name": "Bario oligolepis",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 6 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/bario-oligolepis",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Bario-oligolepis.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 5.0,
-      "ph": {
-        "min": 5.5,
-        "max": 7.2
-      },
-      "gh": {
-        "min": 1.0,
-        "max": 12.0
-      },
-      "minimum_group": 6,
-      "minimum_tank_volume_l": 68.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Venezuela, the Guianas and the Amazon River basin."
-    },
-    {
-      "id": "brachychalcinus_orbicularis",
-      "common_name": "Discus Tetra",
-      "scientific_name": "Brachychalcinus orbicularis",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/brachychalcinus-orbicularis",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Brachychalcinus-orbicularis.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 9.0,
-      "temperature": {
-        "min": 18.0,
-        "max": 24.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 7.5
-      },
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Coastal drainages of Suriname and Guyana."
-    },
-    {
-      "id": "chalceus_macrolepidotus",
-      "common_name": "Pink-tailed Chalceus",
-      "scientific_name": "Chalceus macrolepidotus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/chalceus-macrolepidotus",
-          "checked": "2026-10-05"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Chalceus-macrolepidotus.html",
-          "checked": "2026-10-05"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 25.0,
-      "temperature": {
-        "min": 23.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 7.5
-      },
-      "gh": {
-        "min": 5.0,
-        "max": 18.0
-      },
-      "minimum_tank_volume_l": 243.0,
-      "social_type": "unknown",
-      "temperament": "territorial",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "South America: Negro and Orinoco River basins and coastal rivers in Guyana, Suriname, and French Guiana."
-    },
-    {
-      "id": "hyphessobrycon_herbertaxelrodi",
-      "common_name": "Black Neon Tetra",
-      "scientific_name": "Hyphessobrycon herbertaxelrodi",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-herbertaxelrodi.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used.",
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 3.5,
-      "temperature": {
-        "min": 23.0,
-        "max": 27.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 7.5
-      },
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 72.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Paraguay River basin."
-    },
-    {
-      "id": "apistogramma_borellii",
-      "common_name": "Borelli's Dwarf Cichlid",
-      "scientific_name": "Apistogramma borellii",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "fishbase",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "gh": "fishbase",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/apistogramma-borellii",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Apistogramma-borellii.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 3.9,
-      "temperature": {
-        "min": 24.0,
-        "max": 25.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 8.0
-      },
-      "gh": {
-        "min": 5.0,
-        "max": 19.0
-      },
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 41.0,
-      "social_type": "in a pair",
-      "temperament": "peaceful",
-      "diet_type": "carnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "subtropical",
-      "distribution": "South America: Paraguay River basin and along the lower Paraná River in Argentina"
-    },
-    {
-      "id": "prionobrama_filigera",
-      "common_name": "Glass Bloodfin Tetra",
-      "scientific_name": "Prionobrama filigera",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/prionobrama-filigera",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Prionobrama-filigera.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "ph differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 6.0,
-      "temperature": {
-        "min": 23.0,
-        "max": 27.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 7.0
-      },
-      "gh": {
-        "min": 1.0,
-        "max": 5.0
-      },
-      "minimum_tank_volume_l": 68.0,
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "difficulty": "moderate",
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "South America: Amazon River basin."
-    },
-    {
-      "id": "petitella_rhodostoma",
-      "common_name": "Rummy-nose tetra",
-      "scientific_name": "Petitella rhodostoma",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 10 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/petitella-rhodostoma",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Petitella-rhodostoma.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 5.0,
-      "ph": {
-        "min": 5.5,
-        "max": 7.0
-      },
-      "gh": {
-        "min": 2.0,
-        "max": 15.0
-      },
-      "minimum_group": 10,
-      "minimum_tank": {
-        "length_cm": 80.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: lower Amazon River basin and Orinoco River basin."
-    },
-    {
-      "id": "hemigrammus_erythrozonus",
-      "common_name": "Glowlight Tetra",
-      "scientific_name": "Hemigrammus erythrozonus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 6 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hemigrammus-erythrozonus",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hemigrammus-erythrozonus.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used.",
-        "ph differs between sources; SeriouslyFish value used.",
-        "gh differs between sources; SeriouslyFish value used.",
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 4.0,
-      "temperature": {
-        "min": 24.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 7.5
-      },
-      "gh": {
-        "min": 2.0,
-        "max": 15.0
-      },
-      "minimum_group": 6,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 68.0,
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "difficulty": "moderate",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Essequibo River."
-    },
-    {
-      "id": "megalamphodus_megalopterus",
-      "common_name": "Black Phantom Tetra",
-      "scientific_name": "Megalamphodus megalopterus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/megalamphodus-megalopterus",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Megalamphodus-megalopterus.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 3.6,
-      "temperature": {
-        "min": 22.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 7.5
-      },
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 72.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Upper Paraguay and Guaporé River basins."
-    },
-    {
-      "id": "hyphessobrycon_flammeus",
-      "common_name": "Flame Tetra",
-      "scientific_name": "Hyphessobrycon flammeus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "gh": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-flammeus",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-flammeus.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used.",
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 2.5,
-      "temperature": {
-        "min": 22.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 5.8,
-        "max": 7.8
-      },
-      "gh": {
-        "min": 5.0,
-        "max": 25.0
-      },
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 54.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "moderate",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Brazil in streams and coastal rivers of Rio de Janeiro, in Guanabara bay basin, middle rio Paraíba do Sul basin and rio Guandu basin, and upper rio Tietê drainage (upper rio Paraná basin, São Paulo) (Ref. 96863 ). Thought to be extinct in the wild (Ref. 89952 )."
-    },
-    {
-      "id": "hyphessobrycon_heliacus",
-      "common_name": "Hyphessobrycon",
-      "scientific_name": "Hyphessobrycon heliacus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "fishbase",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "not_found",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-heliacus.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 2.8,
-      "environment_type": "freshwater",
-      "ecology": "pelagic",
-      "climate": "tropical",
-      "distribution": "South America: Teles Pires River in the upper Tapajós basin, Brazil."
-    },
-    {
-      "id": "phenacogrammus_interruptus",
-      "common_name": "Congo Tetra",
-      "scientific_name": "Phenacogrammus interruptus",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_group": "fishbase",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/phenacogrammus-interruptus",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Phenacogrammus-interruptus.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "ph differs between sources; SeriouslyFish value used.",
-        "gh differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 8.0,
-      "temperature": {
-        "min": 23.0,
-        "max": 26.0
-      },
-      "ph": {
-        "min": 6.0,
-        "max": 7.5
-      },
-      "gh": {
-        "min": 3.0,
-        "max": 18.0
-      },
-      "minimum_group": 5,
-      "minimum_tank": {
-        "length_cm": 100.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 108.0,
-      "social_type": "unknown",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "Africa: lower and middle Congo River basin in Democratic Republic of the Congo (Ref. 42032 ) and Republic of Congo (Ref. 44840 )."
-    },
-    {
-      "id": "makunaima_pittieri",
-      "common_name": "Diamond Tetra",
-      "scientific_name": "Makunaima pittieri",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 6 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/makunaima-pittieri",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Makunaima-pittieri.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "ph differs between sources; SeriouslyFish value used.",
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 6.0,
-      "temperature": {
-        "min": 24.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 7.0
-      },
-      "gh": {
-        "min": 5.0,
-        "max": 12.0
-      },
-      "minimum_group": 6,
-      "minimum_tank": {
-        "length_cm": 80.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 68.0,
-      "social_type": "shoal",
-      "temperament": "unknown",
-      "difficulty": "moderate",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Lake Valencia basin in Venezuela."
-    },
-    {
-      "id": "hyphessobrycon_amandae",
-      "common_name": "Ember Tetra",
-      "scientific_name": "Hyphessobrycon amandae",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-amandae",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-amandae.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [],
-      "adult_size_cm": 2.0,
-      "temperature": {
-        "min": 24.0,
-        "max": 28.0
-      },
-      "minimum_tank_volume_l": 41.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Araguaia River basin."
-    },
-    {
-      "id": "megalamphodus_sweglesi",
-      "common_name": "Red Phantom Tetra",
-      "scientific_name": "Megalamphodus sweglesi",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 8 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "fishbase",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/megalamphodus-sweglesi",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Megalamphodus-sweglesi.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used.",
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 3.5,
-      "temperature": {
-        "min": 20.0,
-        "max": 23.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 7.5
-      },
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 72.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Orinoco River basin."
     },
     {
       "id": "pristella_maxillaris",
@@ -2405,23 +2530,20 @@
       "distribution": "South America: Amazon, Orinoco, and coastal river drainages of the Guianas."
     },
     {
-      "id": "thayeria_obliqua",
-      "common_name": "Penguin Tetra",
-      "scientific_name": "Thayeria obliqua",
+      "id": "hyphessobrycon_bifasciatus",
+      "common_name": "Yellow Tetra",
+      "scientific_name": "Hyphessobrycon bifasciatus",
       "aliases": [],
       "kh": null,
       "swimming_zone": "",
-      "cautions": [
-        "Keep at least 6 individuals."
-      ],
+      "cautions": [],
       "field_sources": {
         "adult_size_cm": "seriouslyfish",
         "temperature": "fishbase",
+        "ph": "fishbase",
         "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
         "social_type": "seriouslyfish",
         "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
         "environment_type": "fishbase",
         "ecology": "fishbase",
         "climate": "fishbase",
@@ -2430,37 +2552,39 @@
       "sources": {
         "seriouslyfish": {
           "status": "found",
-          "url": "https://www.seriouslyfish.com/species/thayeria-obliqua",
-          "checked": "2026-10-06"
+          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-bifasciatus",
+          "checked": "2026-10-05"
         },
         "fishbase": {
           "status": "found",
-          "url": "https://www.fishbase.se/summary/Thayeria-obliqua.html",
-          "checked": "2026-10-06"
+          "url": "https://www.fishbase.se/summary/Hyphessobrycon-bifasciatus.html",
+          "checked": "2026-10-05"
         }
       },
       "source_notes": [
         "adult_size_cm differs between sources; SeriouslyFish value used."
       ],
-      "adult_size_cm": 8.0,
+      "adult_size_cm": 4.5,
       "temperature": {
-        "min": 22.0,
-        "max": 28.0
+        "min": 20.0,
+        "max": 25.0
       },
-      "minimum_group": 6,
-      "minimum_tank_volume_l": 68.0,
-      "social_type": "shoal",
+      "ph": {
+        "min": 5.8,
+        "max": 8.0
+      },
+      "minimum_group": 8,
+      "social_type": "kept alone",
       "temperament": "peaceful",
-      "difficulty": "easy",
       "environment_type": "freshwater",
-      "ecology": "pelagic",
+      "ecology": "benthopelagic",
       "climate": "tropical",
-      "distribution": "South America: middle Amazon, middle Tocantins and Guaporé River basins."
+      "distribution": "South America: Coastal river drainages from Espírito Santo to Rio Grande do Sul, Brazil and upper Paraná River basin."
     },
     {
-      "id": "hyphessobrycon_pulchripinnis",
-      "common_name": "Lemon Tetra",
-      "scientific_name": "Hyphessobrycon pulchripinnis",
+      "id": "alestopetersius_caudalis",
+      "common_name": "Yellow-Tailed Congo Tetra",
+      "scientific_name": "Alestopetersius caudalis",
       "aliases": [],
       "kh": null,
       "swimming_zone": "",
@@ -2472,69 +2596,6 @@
         "temperature": "fishbase",
         "ph": "fishbase",
         "minimum_group": "seriouslyfish",
-        "minimum_tank": "fishbase",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "diet_type": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hyphessobrycon-pulchripinnis",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hyphessobrycon-pulchripinnis.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used.",
-        "minimum_group differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 4.0,
-      "temperature": {
-        "min": 23.0,
-        "max": 28.0
-      },
-      "ph": {
-        "min": 5.5,
-        "max": 8.0
-      },
-      "minimum_group": 8,
-      "minimum_tank": {
-        "length_cm": 60.0,
-        "width_cm": null,
-        "height_cm": null
-      },
-      "minimum_tank_volume_l": 72.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "easy",
-      "diet_type": "omnivorous",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: Tapajós River basin."
-    },
-    {
-      "id": "axelrodia_riesei",
-      "common_name": "Ruby Tetra",
-      "scientific_name": "Axelrodia riesei",
-      "aliases": [],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
         "minimum_tank_volume_l": "seriouslyfish",
         "social_type": "seriouslyfish",
         "temperament": "seriouslyfish",
@@ -2547,96 +2608,36 @@
       "sources": {
         "seriouslyfish": {
           "status": "found",
-          "url": "https://www.seriouslyfish.com/species/axelrodia-riesei",
-          "checked": "2026-10-06"
+          "url": "https://www.seriouslyfish.com/species/alestopetersius-caudalis",
+          "checked": "2026-10-05"
         },
         "fishbase": {
           "status": "found",
-          "url": "https://www.fishbase.se/summary/Axelrodia-riesei.html",
-          "checked": "2026-10-06"
+          "url": "https://www.fishbase.se/summary/Alestopetersius-caudalis.html",
+          "checked": "2026-10-05"
         }
       },
       "source_notes": [
         "adult_size_cm differs between sources; SeriouslyFish value used."
       ],
-      "adult_size_cm": 2.0,
+      "adult_size_cm": 6.0,
       "temperature": {
-        "min": 20.0,
+        "min": 22.0,
         "max": 26.0
       },
-      "minimum_tank_volume_l": 54.0,
-      "social_type": "shoal",
-      "temperament": "peaceful",
-      "difficulty": "moderate",
-      "environment_type": "freshwater",
-      "ecology": "benthopelagic",
-      "climate": "tropical",
-      "distribution": "South America: upper Meta River basin."
-    },
-    {
-      "id": "hemigrammus_rodwayi",
-      "common_name": "Golden Tetra",
-      "scientific_name": "Hemigrammus rodwayi",
-      "aliases": [
-        "Gold Tetra"
-      ],
-      "kh": null,
-      "swimming_zone": "",
-      "cautions": [
-        "Keep at least 6 individuals."
-      ],
-      "field_sources": {
-        "adult_size_cm": "seriouslyfish",
-        "temperature": "fishbase",
-        "ph": "seriouslyfish",
-        "gh": "seriouslyfish",
-        "minimum_group": "seriouslyfish",
-        "minimum_tank_volume_l": "seriouslyfish",
-        "social_type": "seriouslyfish",
-        "temperament": "seriouslyfish",
-        "difficulty": "seriouslyfish",
-        "environment_type": "fishbase",
-        "ecology": "fishbase",
-        "climate": "fishbase",
-        "distribution": "fishbase"
-      },
-      "sources": {
-        "seriouslyfish": {
-          "status": "found",
-          "url": "https://www.seriouslyfish.com/species/hemigrammus-rodwayi",
-          "checked": "2026-10-06"
-        },
-        "fishbase": {
-          "status": "found",
-          "url": "https://www.fishbase.se/summary/Hemigrammus-rodwayi.html",
-          "checked": "2026-10-06"
-        }
-      },
-      "source_notes": [
-        "adult_size_cm differs between sources; SeriouslyFish value used."
-      ],
-      "adult_size_cm": 5.5,
-      "temperature": {
-        "min": 24.0,
-        "max": 28.0
-      },
       "ph": {
-        "min": 5.5,
-        "max": 7.0
+        "min": 6.5,
+        "max": 7.8
       },
-      "gh": {
-        "min": 1.0,
-        "max": 12.0
-      },
-      "minimum_group": 6,
-      "minimum_tank_volume_l": 68.0,
+      "minimum_group": 8,
+      "minimum_tank_volume_l": 108.0,
       "social_type": "shoal",
       "temperament": "peaceful",
       "difficulty": "easy",
       "environment_type": "freshwater",
-      "ecology": "benthopelagic",
+      "ecology": "pelagic",
       "climate": "tropical",
-      "distribution": "South America: Rivers of Guyana, Suriname, French Guiana, and Amazon River basin."
+      "distribution": "Africa: lower and middle Congo River basin in Democratic Republic of the Congo and Central African Republic (Ref. 42032 ), including the marine lower Congo, Lake Tumba, Ruki drainage, Ubangi, Uele (Ref. 42032 ), Itimbiri, Aruwimi (Ref. 42032 , 106290 ) and Lindi-Tshopo (Ref. 106290 )."
     }
   ]
 }
