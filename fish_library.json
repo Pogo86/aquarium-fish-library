@@ -1749,7 +1749,9 @@
       "id": "hyphessobrycon_pulchripinnis",
       "common_name": "Lemon Tetra",
       "scientific_name": "Hyphessobrycon pulchripinnis",
-      "aliases": [],
+      "aliases": [
+        "Lemon tetras"
+      ],
       "kh": null,
       "swimming_zone": "",
       "cautions": [
@@ -1775,34 +1777,34 @@
         "seriouslyfish": {
           "status": "found",
           "url": "https://www.seriouslyfish.com/species/hyphessobrycon-pulchripinnis",
-          "checked": "2026-10-06"
+          "checked": "2026-10-09"
         },
         "fishbase": {
           "status": "found",
           "url": "https://www.fishbase.se/summary/Hyphessobrycon-pulchripinnis.html",
-          "checked": "2026-10-06"
+          "checked": "2026-10-09"
         }
       },
       "source_notes": [
         "adult_size_cm differs between sources; SeriouslyFish value used.",
         "minimum_group differs between sources; SeriouslyFish value used."
       ],
-      "adult_size_cm": 4.0,
+      "adult_size_cm": 4,
       "temperature": {
-        "min": 23.0,
-        "max": 28.0
+        "min": 23,
+        "max": 28
       },
       "ph": {
         "min": 5.5,
-        "max": 8.0
+        "max": 8
       },
       "minimum_group": 8,
       "minimum_tank": {
-        "length_cm": 60.0,
+        "length_cm": 60,
         "width_cm": null,
         "height_cm": null
       },
-      "minimum_tank_volume_l": 72.0,
+      "minimum_tank_volume_l": 72,
       "social_type": "shoal",
       "temperament": "peaceful",
       "difficulty": "easy",
@@ -1810,7 +1812,8 @@
       "environment_type": "freshwater",
       "ecology": "benthopelagic",
       "climate": "tropical",
-      "distribution": "South America: Tapajós River basin."
+      "distribution": "South America: Tapajós River basin.",
+      "gh": null
     },
     {
       "id": "astyanax_leopoldi",
