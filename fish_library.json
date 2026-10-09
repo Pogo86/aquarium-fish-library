@@ -119,6 +119,72 @@
       "distribution": "Africa: lower Niger and Ogun rivers in Nigeria (Ref. 2880 , 81279 )."
     },
     {
+      "id": "apistogramma_agassizii",
+      "common_name": "Agassiz's Dwarf Cichlid",
+      "scientific_name": "Apistogramma agassizii",
+      "aliases": [],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "fishbase",
+        "temperature": "fishbase",
+        "ph": "fishbase",
+        "gh": "fishbase",
+        "minimum_tank": "fishbase",
+        "minimum_tank_volume_l": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "diet_type": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/apistogramma-agassizii",
+          "checked": "2026-10-09"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Apistogramma-agassizii.html",
+          "checked": "2026-10-09"
+        }
+      },
+      "source_notes": [],
+      "adult_size_cm": 4.4,
+      "temperature": {
+        "min": 26,
+        "max": 29
+      },
+      "ph": {
+        "min": 5,
+        "max": 7
+      },
+      "gh": {
+        "min": 0,
+        "max": 12
+      },
+      "minimum_tank": {
+        "length_cm": 60,
+        "width_cm": null,
+        "height_cm": null
+      },
+      "minimum_tank_volume_l": 54,
+      "social_type": "unknown",
+      "temperament": "unknown",
+      "difficulty": "moderate",
+      "diet_type": "carnivorous",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "South America: Amazon River basin, along Amazon-Solimões River from Peru through Brazil to the Capim River basin.",
+      "minimum_group": null
+    },
+    {
       "id": "angelfish",
       "common_name": "Angelfish",
       "scientific_name": "Pterophyllum scalare",
