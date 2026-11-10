@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "library_name": "Aquarium Manager Starter Fish Library",
-  "updated": "2026-10-24",
+  "updated": "2026-11-10",
   "species": [
     {
       "id": "alestopetersius_nigropterus",
@@ -931,6 +931,70 @@
       "ecology": "pelagic",
       "climate": "tropical",
       "distribution": "Africa: Pool Malebo, the middle Congo River, the Ruki drainage (Ref. 42032 ) and the Lomami (Ref. 106245 ) in Democratic Republic of the Congo."
+    },
+    {
+      "id": "neolamprologus_marunguensis",
+      "common_name": "Cherry Shrimp",
+      "scientific_name": "Neocaridina",
+      "aliases": [
+        "Neocaridina"
+      ],
+      "kh": null,
+      "swimming_zone": "",
+      "cautions": [],
+      "field_sources": {
+        "adult_size_cm": "seriouslyfish",
+        "temperature": "fishbase",
+        "ph": "seriouslyfish",
+        "gh": "seriouslyfish",
+        "social_type": "seriouslyfish",
+        "temperament": "seriouslyfish",
+        "difficulty": "seriouslyfish",
+        "environment_type": "fishbase",
+        "ecology": "fishbase",
+        "climate": "fishbase",
+        "distribution": "fishbase"
+      },
+      "sources": {
+        "seriouslyfish": {
+          "status": "found",
+          "url": "https://www.seriouslyfish.com/species/neolamprologus-marunguensis",
+          "checked": "2026-11-10"
+        },
+        "fishbase": {
+          "status": "found",
+          "url": "https://www.fishbase.se/summary/Neolamprologus-marunguensis.html",
+          "checked": "2026-11-10"
+        }
+      },
+      "source_notes": [
+        "adult_size_cm differs between sources; SeriouslyFish value used.",
+        "ph differs between sources; SeriouslyFish value used.",
+        "gh differs between sources; SeriouslyFish value used."
+      ],
+      "adult_size_cm": 4,
+      "temperature": {
+        "min": 20,
+        "max": 25
+      },
+      "ph": {
+        "min": 6.5,
+        "max": 8
+      },
+      "gh": {
+        "min": 6,
+        "max": 12
+      },
+      "social_type": "unknown",
+      "temperament": "peaceful",
+      "difficulty": "easy",
+      "environment_type": "freshwater",
+      "ecology": "benthopelagic",
+      "climate": "tropical",
+      "distribution": "Africa: endemic to Lake Tanganyika, occurs on the western and eastern coast of the lake (Ref. 46829 ).",
+      "minimum_group": 6,
+      "minimum_tank": null,
+      "diet_type": ""
     },
     {
       "id": "phenacogrammus_interruptus",
